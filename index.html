@@ -77,15 +77,16 @@
             function initFunc() {
 
             document.addEventListener('deviceready', onDeviceReady, false);
+            setTimeout(function() {
+                    navigator.splashscreen.hide();
+                }, 6000);
 
             }
             function onDeviceReady() {
                 //alert('onDeviceReady() loaded before hide() ....');
                 
 
-                setTimeout(function() {
-                    navigator.splashscreen.hide();
-                }, 6000);
+                
                 
                 
                 // setTimeout(function() {navigator.splashscreen.hide();}, 10);
