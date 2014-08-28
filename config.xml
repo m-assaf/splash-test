@@ -31,9 +31,9 @@
 
 
     <!--
-    <preference name="auto-hide-splash-screen" value="false" /> 
+    <preference name="auto-hide-splash-screen" value="false" /> -->
     <preference name="AutoHideSplashScreen" value="false" />
-    -->
+    
 
 
     <!-- Fade Splash Screen (work only on iOS) -->
