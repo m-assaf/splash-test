@@ -54,7 +54,7 @@
     <preference name="StatusBarBackgroundColor" value="#00FFFF" />
     -->
     
-    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <!-- <gap:plugin name="com.phonegap.plugin.statusbar" /> -->
     <gap:plugin name="org.apache.cordova.splashscreen" />
 
     <!-- <preference name="splash-screen-duration" value="7000" /> -->
