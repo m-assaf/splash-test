@@ -11,7 +11,7 @@
         xmlns="http://www.w3.org/ns/widgets" 
         xmlns:gap="http://phonegap.com/ns/1.0">
 
-    <name>Splash and Icon Example App</name>
+    <name>Splash Screen App</name>
     <description>
         Splash screen and icon example app.
     </description>
