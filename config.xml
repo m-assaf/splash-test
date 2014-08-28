@@ -34,10 +34,10 @@
     -->
 
 
-    <!--
+    
     <preference name="FadeSplashScreen" value="true" />
     <preference name="fade-splash-screen-duration" value="5" />
-    -->
+    
 
 
     <!-- 
