@@ -112,6 +112,6 @@
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768" />
 	
 	<gap:platform name="ios" />
-    <gap:platform name="android" />
+    <!-- <gap:platform name="android" /> -->
 		
 </widget>
