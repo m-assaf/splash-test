@@ -20,7 +20,9 @@
         PhoneGap Team
     </author>
 
-    <preference name="phonegap-version" value="3.5.0" /> 
+    <preference name="phonegap-version" value="3.5.0" />
+
+    <!-- Delay Splash Screen (work only for Android) --> 
     <!--
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="5" />
@@ -34,9 +36,11 @@
     -->
 
 
-    <preference name="SplashScreen" value="splashscreen" />
+    <!-- Fade Splash Screen (work only on iOS) -->
+    <!--
     <preference name="FadeSplashScreen" value="true" />
     <preference name="FadeSplashScreenDuration" value="3.7" />
+    -->
     <!-- <preference name="fade-splash-screen-duration" value="5" /> -->
     
 
