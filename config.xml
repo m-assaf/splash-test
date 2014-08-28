@@ -37,10 +37,11 @@
     <!-- <preference name="AutoHideSplashScreen" value="false" /> -->
 
     
-
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
     
 
-<gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
 
     <!-- <preference name="splash-screen-duration" value="7000" /> -->
     <!--
