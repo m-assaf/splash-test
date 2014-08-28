@@ -34,7 +34,7 @@
     -->
 
 
-    
+    <preference name="SplashScreen" value="splashscreen" />
     <preference name="FadeSplashScreen" value="true" />
     <preference name="FadeSplashScreenDuration" value="4.5" />
     <!-- <preference name="fade-splash-screen-duration" value="5" /> -->
