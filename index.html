@@ -26,11 +26,16 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Hello World</title>
-      
+
+        <script type="text/javascript" src="cordova.js"></script>
+
+        <!-- 
         <script type="text/javascript" charset="utf-8">
             document.addEventListener("deviceready", onDeviceReady, false);
             function onDeviceReady() {
+                
                 navigator.splashscreen.hide();
+                alert('onDeviceReady function is loaded ....');
                 /*
                 setTimeout(function() {
                     navigator.splashscreen.hide();
@@ -40,10 +45,28 @@
 
             
         </script>
+        -->
+
+
+        <script type="text/javascript" charset="utf-8">
+            function initFunc() {
+
+            document.addEventListener("deviceready", onDeviceReady, false);
+            alert('onDeviceReady function is loaded ....');
+            }
+            function onDeviceReady() {
+
+            navigator.splashscreen.hide();
+
+            }
+        </script>
+
+       
+
     
 
     </head>
-    <body onload="onDeviceReady()">
+    <body onload="initFunc();" >
         <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
@@ -52,12 +75,16 @@
             </div>
         </div>
         
-        <script type="text/javascript" src="cordova.js"></script>
-        <!-- <script type="text/javascript" src="js/index.js"></script> -->
+        
+        <!-- <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
-            //app.initialize();
+            app.initialize(); 
         </script>
-       
+        -->
+
+
+
+
 
     </body>
 </html>
