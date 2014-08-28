@@ -27,7 +27,7 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Hello World</title>
 
-        <script type="text/javascript" src="cordova.js"></script>
+        
 
         <!-- 
         <script type="text/javascript" charset="utf-8">
@@ -48,25 +48,7 @@
         -->
 
 
-        <script type="text/javascript" charset="utf-8">
-            function initFunc() {
-
-            document.addEventListener('deviceready', onDeviceReady, false);
-
-            }
-            function onDeviceReady() {
-                //alert('onDeviceReady() loaded before hide() ....');
-                
-                setTimeout(function() {
-                    navigator.splashscreen.hide();
-                }, 6000);
-
-
-
-                //alert('onDeviceReady() loaded after hide() ....');
-
-            }
-        </script>
+        
 
        
 
@@ -90,8 +72,26 @@
         -->
 
 
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" charset="utf-8">
+            function initFunc() {
+
+            document.addEventListener('deviceready', onDeviceReady, false);
+
+            }
+            function onDeviceReady() {
+                //alert('onDeviceReady() loaded before hide() ....');
+                
+                setTimeout(function() {
+                    navigator.splashscreen.hide();
+                }, 6000);
 
 
+
+                //alert('onDeviceReady() loaded after hide() ....');
+
+            }
+        </script>
 
     </body>
 </html>
