@@ -82,11 +82,11 @@
             function onDeviceReady() {
                 //alert('onDeviceReady() loaded before hide() ....');
                 
-                window.setTimeout(function() {
+                setTimeout(function() {
                     navigator.splashscreen.hide();
                 }, 6000);
                 
-
+                // setTimeout(function() {navigator.splashscreen.hide();}, 10);
 
 
                 //alert('onDeviceReady() loaded after hide() ....');
