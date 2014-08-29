@@ -20,7 +20,7 @@
         PhoneGap Team
     </author>
 
-    <preference name="phonegap-version" value="3.5.0" />
+    <!--<preference name="phonegap-version" value="3.5.0" /> -->
 
     <!-- Delay Splash Screen (work only for Android) --> 
     <!--
