@@ -72,9 +72,11 @@
         -->
 
 
-<script type="text/javascript" src="cordova.js"></script>
-<script type="text/javascript" charset="utf-8">
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" charset="utf-8">
             function initFunc() {
+
+
 
             document.addEventListener('deviceready', onDeviceReady, false);
 
@@ -84,9 +86,7 @@
                 //alert('onDeviceReady() loaded before hide() ....');
                 alert('onDeviceReady() loaded before hide() ....');
                 
-                setTimeout(function() {
-                    navigator.splashscreen.hide();
-                }, 5);
+                
                 
 
                 alert('onDeviceReady() loaded after hide() ....');
@@ -98,6 +98,11 @@
                 //alert('onDeviceReady() loaded after hide() ....');
 
             }
+
+         setTimeout(function() {
+                            navigator.splashscreen.hide();
+                        }, 5);
+            
         </script>
 
     </body>
