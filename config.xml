@@ -41,10 +41,10 @@
 
 
     <!-- Fade Splash Screen (work only on iOS) -->
-    <!--
+    
     <preference name="FadeSplashScreen" value="true" />
     <preference name="FadeSplashScreenDuration" value="3.7" />
-    -->
+    
     <!-- <preference name="fade-splash-screen-duration" value="5" /> -->
     
 
@@ -120,7 +120,7 @@
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768" />
 	
 	<gap:platform name="ios" />
-    <!-- <gap:platform name="android" /> -->
+    <gap:platform name="android" />
 
 
 	<access origin="*"/>	
