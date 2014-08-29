@@ -85,13 +85,13 @@
             function onDeviceReady() {
                 //alert('onDeviceReady() loaded before hide() ....');
                 //alert('onDeviceReady() loaded before hide() ....');
-                /*
+                
                 setTimeout(function() {
                             navigator.splashscreen.hide();
                         }, 5000);
-                */
+                
 
-                setTimeout(function() { cordova.exec(null, null, "SplashScreen", "hide", []); }, 5000);
+                /* setTimeout(function() { cordova.exec(null, null, "SplashScreen", "hide", []); }, 5000); */
                 
 
                 //alert('onDeviceReady() loaded after hide() ....');
