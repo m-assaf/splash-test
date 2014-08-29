@@ -35,7 +35,7 @@
     <preference name="splash-screen-duration" value="7000" />
     -->
     <preference name="AutoHideSplashScreen" value="true" /> 
-    <preference name="SplashScreenDelay" value="7000" /> 
+    <!-- <preference name="SplashScreenDelay" value="7000" /> -->
     
     
 
