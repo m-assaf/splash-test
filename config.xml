@@ -50,13 +50,13 @@
     
 
 
-    <!-- 
+    
     <preference name="FadeSplashScreen" value="true" />
-    <preference name="FadeSplashScreenDuration" value="60000" />
-    -->
+    <preference name="FadeSplashScreenDuration" value="4000" />
+    
     
     <!-- <preference name="show-splash-screen-spinner" value="false" /> -->
-    <preference name="auto-hide-splash-screen" value="false" />
+    <!-- <preference name="auto-hide-splash-screen" value="false" /> -->
     <!-- <preference name="AutoHideSplashScreen" value="false" /> -->
     <!-- <preference name="AutoHideSplashScreen" value="false" /> -->
     
@@ -121,7 +121,7 @@
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768" />
 	
 	<gap:platform name="ios" />
-    <!-- <gap:platform name="android" /> -->
+    <gap:platform name="android" />
 
 
 	<access origin="*"/>	
