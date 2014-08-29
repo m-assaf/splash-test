@@ -93,6 +93,9 @@
     <!-- ios -->
     <!-- <preference name="auto-hide-splash-screen" value="false" /> -->
  
+    <!-- Default splash -->
+    <!-- <gap:splash src="splash.png" /> -->
+
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
