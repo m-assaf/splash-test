@@ -6,10 +6,10 @@
         version   = "1.0.0">
 -->
 
-<widget id="com.phonegap.hello.world" 
-        version="1.4" 
-        xmlns="http://www.w3.org/ns/widgets" 
-        xmlns:gap="http://phonegap.com/ns/1.0">
+<widget xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="com.phonegap.splash.screen" 
+        version="1.0.0">
 
     <name>Splash Screen App</name>
     <description>
@@ -116,6 +116,6 @@
 	<gap:platform name="ios" />
     <!-- <gap:platform name="android" /> -->
 
-    
+
 	<access origin="*"/>	
 </widget>
